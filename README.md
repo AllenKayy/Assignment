@@ -1,5 +1,5 @@
 
-# Assigment
+# Week 3 Projects
 
-Week 3, 4 and 5 projects can be found in their respective branches
+Using HTML and CSS to build a Login/ Registration page and Portfolio 
 

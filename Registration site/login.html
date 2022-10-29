@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="login.css" type="text/css" />
+</head>
+
+<body>
+    <div class="main_login">
+        <div id="head_login">
+            <h1>let's Sign you in.</h1><br>
+            <p>Welcome back!</p>
+            <p>Login to your account.</p>
+        </div>
+        <div class="form_section">
+            <form action="success.html" autocomplete="off">
+                <label for="username">Username</label>
+                <input type="text" class="user_pass" name="username" id="username" placeholder="Email or Phone Number" required><br>
+
+                <label for="pwd">Password</label>
+                <input type="password" class="user_pass" name="pwd" id="pwd" placeholder="Password" minlength="6" maxlength="10" required>
+
+                <div>
+                    <input type="checkbox" name="remember_me" id="remember_me">
+                    <label for="remember_me">Remember me</label>
+
+                    <a href="#" class="forgot">Forgot password?</a>
+                </div>
+
+                <div class="signin_button">
+                    <button type="submit" class="toggle_signin">Sign In</button>
+                </div>
+            </form>
+        </div>
+
+        <footer>Don't have an account? <a href="register.html">Register</a>
+        </footer>
+    </div>
+</body>
+
+</html>

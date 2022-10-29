@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="register.css" type="text/css" />
+</head>
+
+<body>
+    <div class="reg_page">
+        <header class="head">
+            <h2>Register</h2>
+            <p>Kindly fill in this form to register </p>
+        </header>
+
+
+        <form action="login.html" autocomplete="on">
+            <table>
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" class="input_label" name="fname" id="fname" placeholder="Enter first name"
+                            required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lname">Last Name</label></td>
+                    <td><input type="text" class="input_label" name="lname" id="lname" placeholder="Enter last name"
+                            required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone Number</label></td>
+                    <td><input type="tel" class="input_label" name="phone" id="phone"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" class="input_label" name="email" id="email" placeholder="Enter email"
+                            required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pwd">Create Password</label></td>
+                    <td><input type="password" class="input_label" name="pwd" id="pwd" maxlength="10" minlength="6"
+                            placeholder="Enter password" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="confirm_pwd">Confirm Password</label></td>
+                    <td><input type="password" class="input_label" name="confirm_pwd" id="confirm_pwd" max="10"
+                            minlength="6" placeholder="Confirm password" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <select name="gender" class="input_small" id="gender" required>
+                            <option value="select">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">female</option>
+                            <option value="other">Other</option>
+                            <option value="prefer">Prefer not to say</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="birthday">Date of Birth</label></td>
+                    <td><input type="date" class="input_small" name="birthday" id="birthday" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="fav_color">Favorite Color</label></td>
+                    <td><input type="color" class="input_small" name="fav_color" id="fav_color" value="#5B4277"
+                            required></td>
+                </tr>
+            </table>
+            
+            <p id="terms">By registering, you agree to our <a href="#">Privacy Policy</a>, <a href="#">Terms &
+                    Conditions</a></p>
+
+            <div class="account">
+                <button type="submit" class="toggle_account">Create an account</button>
+            </div>
+        </form>
+
+        <div>
+            <p>Already have an account? <a href="login.html">Sign In</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

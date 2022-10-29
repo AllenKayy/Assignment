@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  align-content: center;
+  padding: 10px 30px 0 10px;
+  background-color: rgba(70, 10, 233, 0.753);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", Arial,
+    Helvetica, sans-serif;
+}
+
+.main_page {
+  width: 0 auto;
+  margin: auto;
+  max-width: 500px;
+  margin-top: 5%;
+  width: fit-content;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#reg_text {
+  text-align: center;
+  color: #fff;
+  margin-top: 10%;
+}
+
+#login {
+  color: #fff;
+}
+
+.button_box {
+  width: 300px;
+  margin: 32% auto 10%;
+  position: relative;
+  box-shadow: 0 0 20px 9px #0808082d;
+  border-radius: 13px;
+}
+
+.toggle_btn {
+  padding: 10px 50px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: #fcfbfa;
+  border-radius: 13px;
+  transition: 0.5s;
+}
+
+.toggle_btn:hover {
+  background: hsla(272, 78%, 61%, 0.829);
+  background-position: initial;
+  border-radius: 12px;
+}
