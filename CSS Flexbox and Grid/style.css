@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Big Shoulders Display', cursive;
+    --font-family2: 'Lexend Deca', sans-serif;
+    --paragraph: hsla(0, 0%, 100%, 0.75);
+    --background: hsl(0, 0%, 95%);
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%,13%);
+    --font-size: 15px;
+}
+
+body {
+    background: var(--background);
+    font-size: var(--font-size);
+  width: 100%;
+}
+
+.cars_container {
+    display: flex;
+    /* margin: 0 auto;
+    width: 500px; */
+    margin: 0 auto;
+    width: 800px;
+    height: 100vh;
+    align-items: center;
+}
+
+@media (max-width: 750px) {
+    .cars_container  {
+        width: 70%;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    /* .sedans {
+        border-radius: 6px 6px 0 0;
+    } */
+
+}
+
+.box {
+    padding: 30px ;
+    padding-bottom: 45px;
+    justify-content: center;
+}
+.box img {
+    width: 50px;
+    padding-top: 18px;
+}
+
+.box h1 {
+    font-family: var(--font-family);
+    color: var(--background);
+    padding: 1em 0;
+}
+
+.box p, button {
+    font-family: var(--font-family2);
+  font-size: 15px;
+}
+
+.box p {
+    margin-bottom: 90px;
+    color: var(--paragraph);
+    font-weight: 400;
+}
+
+button {
+    border-radius: 20px;
+    border: 2px solid var(--background);
+    padding: 10px;
+    width: 60%;
+    color: var(--background);
+    background: transparent;
+    cursor: pointer;
+}
+
+.sedans {
+    background: var(--bright-orange);
+    border-radius: 6px 0 0 6px;
+}
+
+.suvs {
+    background: var(--dark-cyan);
+}
+
+.luxury {
+    background: var(--very-dark-cyan);
+    border-radius: 0 6px 6px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(216, 11, 11);
+    padding-left: 2rem;
+    font-weight: 500;
+}

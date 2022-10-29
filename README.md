@@ -1,5 +1,4 @@
 
-# Week 3 Projects
+# Week 4 Projects
 
-Using HTML and CSS to build a Login/ Registration page and Portfolio 
-
+Using CSS Flexbox and Grid Layout to build a three column card and grid section design respectively.

@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding-inline-start: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(5, 1, 26);
+    width: 100%;
+}
+
+a {
+    color: aliceblue;
+}
+
+.orange { grid-area: orange; }
+.yellow { grid-area: yellow; }
+.green { grid-area: green; }
+.blue { grid-area: blue; }
+.blue2 { grid-area: blue2; }
+
+.grid_wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-areas:
+      'orange orange orange orange yellow yellow yellow'
+      'green green green blue blue blue blue'
+      'green green green blue2 blue2 blue2 blue2';
+    grid-gap: 15px;
+    padding: 30px;
+    grid-template-rows: 200px 105px 120px;
+}
+
+.orange {
+    background: rgb(224, 60, 19);
+}
+
+.yellow {
+    background: rgb(255, 166, 0);
+}
+
+.green {
+    background: rgb(48, 177, 48);
+}
+
+.blue {
+    background: rgb(57, 166, 230);
+}
+
+.blue2 {
+    background: rgb(57, 166, 230);
+}
