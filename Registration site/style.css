@@ -13,10 +13,9 @@ html {
 }
 
 .main_page {
-  width: 0 auto;
   margin: auto;
   max-width: 500px;
-  margin-top: 5%;
+  margin-top: 4%;
   width: fit-content;
   overflow-x: hidden;
   position: relative;
@@ -34,7 +33,7 @@ html {
 
 .button_box {
   width: 300px;
-  margin: 32% auto 10%;
+  margin: 28% auto 10%;
   position: relative;
   box-shadow: 0 0 20px 9px #0808082d;
   border-radius: 13px;
@@ -53,7 +52,7 @@ html {
   top: 0;
   left: 0;
   position: absolute;
-  width: 150px;
+  width: 149px;
   height: 100%;
   background: #fcfbfa;
   border-radius: 13px;
@@ -65,3 +64,10 @@ html {
   background-position: initial;
   border-radius: 12px;
 }
+
+/* #replit_link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 45px;
+} */
